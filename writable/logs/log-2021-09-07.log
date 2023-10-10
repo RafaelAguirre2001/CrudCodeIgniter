@@ -1,0 +1,224 @@
+CRITICAL - 2021-09-07 17:45:31 --> Undefined variable $personas
+#0 C:\xampp\htdocs\crudcompleto\app\Views\welcome_message.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\crudcompleto\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\crudcompleto\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\crudcompleto\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(10): view('welcome_message')
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->index()
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#7 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 17:50:27 --> Undefined variable $datos
+#0 C:\xampp\htdocs\crudcompleto\app\Views\welcome_message.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\crudcompleto\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\crudcompleto\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\crudcompleto\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(13): view('welcome_message', Array)
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->index()
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#7 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 18:03:06 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:04:36 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:05:34 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:07:04 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:07:38 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:07:52 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:07:56 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:10:39 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:11:32 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#7 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 18:12:06 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(34): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#7 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 18:18:37 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:25:23 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(36): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:26:24 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:27:03 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(33): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:30:50 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:32:10 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:32:13 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:32:46 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:35:30 --> Allowed fields must be specified for model: App\Models\M_persona
+#0 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(1134): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_pe...')
+#1 C:\xampp\htdocs\crudcompleto\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\crudcompleto\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(27): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->insertar()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 18:53:19 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\crudcompleto\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\crudcompleto\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\crudcompleto\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\xampp\htdocs\crudcompleto\app\Controllers\C_persona.php(13): view('welcome_message', Array)
+#4 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(802): App\Controllers\C_persona->index()
+#5 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_persona))
+#6 C:\xampp\htdocs\crudcompleto\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudcompleto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
